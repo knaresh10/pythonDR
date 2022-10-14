@@ -8,9 +8,7 @@ class Bank:
     
     def display(self):
         print(self.name,self.acctno,self.bal)
-    def withdraw(self,amt):
         
-#__Main____
 act = Bank(1,3000,'abc1','naresh',123)
 act.display()
     
