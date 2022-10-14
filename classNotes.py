@@ -11,4 +11,3 @@ class Student:
 
 s1 = Student(123,"cse",'AEC')
 s1.display()
-print(Student.__group)

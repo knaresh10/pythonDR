@@ -6,14 +6,9 @@ class Bank:
         self.name = name 
         self.pin = pin
     
-    def withdraw(self, amt):
-        if(self.bal >= amt):
-            print("Amount is taken")
-            self.bal -= amt 
-        else:
-            print("insufficient balance")
-
+    def display(self):
+        print(self.name,self.acctno,self.bal)
 #__Main____
 act = Bank(1,3000,'abc1','naresh',123)
-act.withdraw(1000)
+act.display()
     
