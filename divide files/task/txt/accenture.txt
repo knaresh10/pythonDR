@@ -1,0 +1,10 @@
+Accenture
+rounds:
+reasoning 15
+aptitude  15
+nonverbal 10
+english   15
+pseudo code 10
+database 10
+networking 7
+
